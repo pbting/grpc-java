@@ -18,7 +18,7 @@ project.sourceSets {
     test { java { srcDir "${projectDir}/third_party/okhttp/test/java" } }
 }
 
-checkstyleMain.exclude '**/io/grpc/okhttp/internal/**'
+checkstyleMain.exclude '**/io/grpc/**'
 
 javadoc.exclude 'io/grpc/okhttp/internal/**'
 javadoc.options.links 'http://square.github.io/okhttp/2.x/okhttp/'
